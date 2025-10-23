@@ -1,0 +1,11 @@
+name: geopy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - matplotlib
+  - numpy
+  - python=3
+  - conda-forge::rasterio
+  - shapely
+  - conda-forge::svgwrite
